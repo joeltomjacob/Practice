@@ -1,8 +1,9 @@
 
 class Greeter
   
-  def initialize(name)
+  def initialize(name, age)
     @name  = name
+    @age = age
   end
   
   def say_hi
